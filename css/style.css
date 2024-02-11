@@ -24,16 +24,16 @@ footer{
     background-color: #000;
     color: #DEC9E9; 
 }
-.wrapper{
+.wrapper {
     max-width: 940px;
     margin: 0 auto;
     padding: 2em;
 }
-ul li {
+ul > li {
     padding: 0;
     list-style: none;
 }
-ol li {
+ol > li {
     padding: 0;
     list-style: none;
 }
@@ -41,26 +41,19 @@ nav a {
     color: #DEC9E9;
     text-decoration: none;
 }
-h1 + p {
+#intro + section {
     background-color: #000;
-color: #DEC9E9;
+    color: #DEC9E9;
 }
-article > src {
+article > img {
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
     margin-top: 1em;
 }
-
-
-
-ol li:second-child {
+ol li:nth-child(even) {
     color: #dc33dc;
 }
-
-
-
-
-main > src {
+main > img {
     width: 100%; 
 }
