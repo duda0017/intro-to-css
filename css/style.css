@@ -29,3 +29,38 @@ footer{
     margin: 0 auto;
     padding: 2em;
 }
+ul li {
+    padding: 0;
+    list-style: none;
+}
+ol li {
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    color: #DEC9E9;
+    text-decoration: none;
+}
+h1 + p {
+    background-color: #000;
+color: #DEC9E9;
+}
+article > src {
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 1em;
+}
+
+
+
+ol li:second-child {
+    color: #dc33dc;
+}
+
+
+
+
+main > src {
+    width: 100%; 
+}
